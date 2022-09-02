@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="tabs-header">
+        <div class="tab tab-config active" data-tab="#tab-config">Config</div>
+        <div class="tab tab-result" data-tab="#tab-result">Result</div>
+      </div>
+      <div class="tabs-body">
+        <div class="tabs tabs-config active" id="tab-config">
+          <textarea name="config-textarea" id="config-textarea" class="config-textarea">
+          </textarea>
+          <button class="btn config-btn">
+            Apply
+          </button>
+        </div>
+        <div class="tabs tabs-result" id="tab-result">
+          <div class="result-body">
+          </div>
+          <div class="result-buttons">
+            <button class="btn result-btn">
+              OK
+            </button>
+            <button class="btn result-btn reset-btn">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
