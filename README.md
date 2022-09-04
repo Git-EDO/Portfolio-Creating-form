@@ -1,6 +1,6 @@
 # Learning-project-Creating-form
 
-## Request: 
+## The task: 
 
 You need to develop an application that renders the UI based on JSON config. 
 
