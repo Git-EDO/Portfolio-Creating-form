@@ -53,6 +53,7 @@ configTextarea.value = `{
 let myJsonObj;
 
 document.querySelector('.config-btn').addEventListener('click', function(){
+  document.querySelector('.status').style.display = 'none';
   myJsonObj = JSON.parse(configTextarea.value)
 
   let myArray = myJsonObj.inputs
@@ -247,10 +248,12 @@ function createForm() {
 };
 
 createForm();
+document.querySelector('.status').style.display = 'block';
 
 });
 
 document.querySelector('.reset-btn').addEventListener('click', function(){
+  document.querySelector('.status').style.display = 'none'
     document.querySelector('.result-body').innerHTML = ""
 });
 

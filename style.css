@@ -113,6 +113,17 @@ h2 {
   color: #333;
   cursor: pointer;
 }
+.config-button {
+  display: flex;
+  align-items: center;
+}
+.status {
+  margin-top: 20px;
+  margin-left: 30px;
+  align-self: center;
+  color: green;
+  display: none;
+}
 .result-body {
   display: flex;
   flex-direction: column;
