@@ -265,6 +265,7 @@ h2 {
 }
 .checkboxFlex {
   display: flex;
+  align-items: center;
   flex: 0 0 28%;
 }
 .checkboxFlex label {
@@ -277,6 +278,7 @@ h2 {
 }
 .radioFlex {
   display: flex;
+  align-items: center;
   flex: 0 0 28%;
 }
 .radioFlex label {
